@@ -47,6 +47,7 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    {% comment %} Styling {% endcomment %}
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
@@ -307,6 +308,7 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
+    {% comment %} all the navbar contains here {% endcomment %}
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
