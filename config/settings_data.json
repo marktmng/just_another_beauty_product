@@ -47,7 +47,7 @@
     "card_color_scheme": "scheme-1",
     "card_border_thickness": 1,
     "card_border_opacity": 100,
-    "card_corner_radius": 18,
+    "card_corner_radius": 0,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
@@ -90,7 +90,7 @@
     "media_shadow_blur": 5,
     "popup_border_thickness": 1,
     "popup_border_opacity": 10,
-    "popup_corner_radius": 18,
+    "popup_corner_radius": 0,
     "popup_shadow_opacity": 0,
     "popup_shadow_horizontal_offset": 0,
     "popup_shadow_vertical_offset": 4,
@@ -201,9 +201,20 @@
       },
       "scheme-b86bbfe4-0154-4341-89d9-e44f02635670": {
         "settings": {
-          "background": "#eff0f5",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
+          "button": "#4770db",
+          "button_label": "#eff0f5",
+          "secondary_button_label": "#0e1b4d",
+          "shadow": "#0e1b4d"
+        }
+      },
+      "scheme-27af053a-7217-45ff-a102-906a056e75a9": {
+        "settings": {
+          "background": "#eff0f5",
+          "background_gradient": "",
+          "text": "#202025",
           "button": "#4770db",
           "button_label": "#eff0f5",
           "secondary_button_label": "#0e1b4d",
