@@ -106,7 +106,8 @@
   endfor
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}"> {%  comment  %} getting error {% endcomment %}
+{%  comment  %} getting error {% endcomment %}
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div {% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}"> 
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -161,7 +162,7 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-
+    {% comment %} Menu-items {% endcomment %}
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
