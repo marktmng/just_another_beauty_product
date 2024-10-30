@@ -10,7 +10,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Shop all",
-            "link": "shopify://collections/all",
+            "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,

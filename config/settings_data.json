@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
@@ -7,6 +8,8 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+=======
+>>>>>>> 502dc59 (pull from the shopify admin)
 {
   "current": {
     "logo_width": 110,
@@ -106,7 +109,11 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-1",
     "brand_headline": "",
+<<<<<<< HEAD
     "brand_description": "<p></p>",
+=======
+    "brand_description": "<p><\/p>",
+>>>>>>> 502dc59 (pull from the shopify admin)
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -401,7 +408,11 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-1",
       "brand_headline": "",
+<<<<<<< HEAD
       "brand_description": "<p></p>",
+=======
+      "brand_description": "<p><\/p>",
+>>>>>>> 502dc59 (pull from the shopify admin)
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
