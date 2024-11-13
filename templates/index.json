@@ -6,7 +6,8 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
+            "image": "shopify:\/\/shop_images\/kelly-sikkema-KJ-us7cIsl0-unsplash.jpg",
+            "heading": "Beauty Products",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Shop all",
@@ -15,7 +16,7 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "left"
           }
