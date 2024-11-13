@@ -2524,7 +2524,8 @@ input[type='checkbox'] {
 }
 
 .header__icon {
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
+  color:  black; /* change color*/
 }
 
 .header__icon span {
@@ -2851,11 +2852,11 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu.list-menu {
   padding: 1rem 0;
+  color:  black;
 }
 
 .header__submenu .header__submenu {
-  /* background-color: rgba(var(--color-foreground), 0.03); */
-  color:  black;
+  background-color: rgba(var(--color-foreground), 0.03);
   padding: 1rem 0;
   margin: 1rem 0;
 }
