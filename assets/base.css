@@ -1941,7 +1941,8 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
+  color:  black;
   padding: 0;
 }
 
