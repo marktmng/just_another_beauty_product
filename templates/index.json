@@ -63,10 +63,99 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "collection_list_xJWWjz": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_HNVWi4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "contour"
+          }
+        },
+        "featured_collection_UtCCXF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "face-primer"
+          }
+        },
+        "featured_collection_UCh6Yt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "foundation"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_HNVWi4",
+        "featured_collection_UtCCXF",
+        "featured_collection_UCh6Yt"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_y8tH7k": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3AbB7e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit your online beauty products shop",
+            "heading_size": "h1"
+          }
+        },
+        "text_6XKARw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Brzw4U": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3AbB7e",
+        "text_6XKARw",
+        "button_Brzw4U"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brush_dd88fb8e-2190-487e-b1f8-21c7964d9de5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection-0"
+    "featured-collection-0",
+    "collection_list_xJWWjz",
+    "image_with_text_y8tH7k"
   ]
 }
