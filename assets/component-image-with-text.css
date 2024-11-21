@@ -103,13 +103,12 @@
   z-index: -1;
 }
 
-.image-with-text:not(.image-with-text--overlap) .image-with-text__media-item:after {
+/* .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item:after {
   border-radius: var(--media-radius);
   box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius)
     /* rgba(var(--color-shadow), var(--media-shadow-opacity)); */
-    rgba(0, 0, 0, 0.5); /* Example with 50% opacity */
-
-}
+    /* rgba(0, 0, 0, 0.5); Example with 50% opacity */
+/* } */ 
 
 .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item:after {
   border-radius: var(--text-boxes-radius);
@@ -118,11 +117,11 @@
 }
 
 .image-with-text .image-with-text__media-item > * {
-  border-radius: var(--media-radius);
+  /* border-radius: var(--media-radius); */
   overflow: hidden;
-  box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius)
+  /* box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) */
     /* rgba(var(--color-shadow), var(--media-shadow-opacity)); */
-    rgba(0, 0, 0, 0.5); /* Example with 50% opacity */
+    /* rgba(0, 0, 0, 0.5); Example with 50% opacity */
 }
 
 .image-with-text .global-media-settings {
@@ -130,11 +129,11 @@
 }
 
 .image-with-text .image-with-text__text-item > * {
-  border-radius: var(--text-boxes-radius);
+  /* border-radius: var(--text-boxes-radius); */
   overflow: hidden;
-  box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset)
-    var(--text-boxes-shadow-blur-radius) /* rgba(var(--color-shadow), var(--text-boxes-shadow-opacity)); */
-    rgba(0, 0, 0, 0.5); /* Example with 50% opacity */
+  /* box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) */
+    /* var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow), var(--text-boxes-shadow-opacity)); */
+    /* rgba(0, 0, 0, 0.5); Example with 50% opacity */
 }
 
 .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
