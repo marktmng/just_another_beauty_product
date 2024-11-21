@@ -167,7 +167,9 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 .background-secondary {
-  background-color: rgba(var(--color-foreground), 0.04);
+  /* background-color: rgba(var(--color-foreground), 0.04); */
+  background-color: rgba(0, 0, 0, 0.75);
+
 }
 
 .grid-auto-flow {
@@ -1796,7 +1798,7 @@ details[open] > .share-button__fallback {
 .field__input:-webkit-autofill ~ .field__button,
 .field__input:-webkit-autofill ~ .field__label,
 .customer .field input:-webkit-autofill ~ label {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0, 0.75);
 }
 
 /* Text area */
