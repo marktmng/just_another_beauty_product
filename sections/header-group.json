@@ -4,8 +4,20 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "announcement_67NdPN": {
+          "type": "announcement",
+          "settings": {
+            "text": "Save upto 30%",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_67NdPN"
+      ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-b86bbfe4-0154-4341-89d9-e44f02635670",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -17,7 +29,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "top-left",
+        "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
