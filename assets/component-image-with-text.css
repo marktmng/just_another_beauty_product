@@ -83,7 +83,8 @@
 .image-with-text__content {
   align-items: flex-start;
   display: flex;
-  color: rgb(0, 0, 0.75); /* added color*/
+  /* color: rgb(0, 0, 0.75); /* added color*/
+  color: #9f2b41;
   flex-direction: column;
   height: 100%;
   justify-content: center;
