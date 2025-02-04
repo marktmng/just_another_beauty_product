@@ -44,7 +44,8 @@
 
 .mega-menu__link {
   /* color: rgba(var(--color-foreground), 0.75); */
-  color: rgb(0, 0, 0, 0.75); /* black */
+  /* color: rgb(0, 0, 0, 0.75); /* black */
+  color: #9f2b41;
   display: block;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
   padding-bottom: 0.6rem;
