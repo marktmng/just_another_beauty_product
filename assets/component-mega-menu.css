@@ -89,3 +89,14 @@
 .mega-menu__list--condensed .mega-menu__link {
   font-weight: normal;
 }
+
+.mega-menu__link {
+  color: #9f2b41; /* Default for desktop */
+}
+
+@media (max-width: 768px) {
+  .mega-menu__link {
+    color: #9f2b41 !important; /* Ensure it applies on mobile */
+  }
+}
+
