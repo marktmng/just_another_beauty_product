@@ -3099,7 +3099,7 @@ details-disclosure > details {
   @media screen and (min-width: 750px) {
     .grid {
       margin-left: calc(-1 * var(--grid-desktop-horizontal-spacing));
-      color: #9f2b41
+      color: #9f2b41;
     }
 
     .grid__item {
