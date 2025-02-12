@@ -2792,7 +2792,7 @@ details[open] > .header__submenu {
 /* Header menu */
 .header__inline-menu {
   margin-left: -1.2rem;
-  grid-area: navigation;
+  grid-area: navigation;  
   display: none;
 }
 
@@ -2821,7 +2821,7 @@ details[open] > .header__submenu {
 
 .header__menu {
   padding: 0 1rem;
-  color: #9f2b41;
+
 }
 
 .header__menu-item {
