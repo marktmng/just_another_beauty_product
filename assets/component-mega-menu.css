@@ -28,11 +28,12 @@
 .js .mega-menu__content {
   width: fit-content; /* Make it only as wide as the menu items */
   min-width: 300px; /* Adjust this if needed */
-  max-width: 80%;
+  /* max-width: 80%;
   left: auto;
   right: auto;
-  list-style: none;
+  list-style: none; */
   transform: translateY(-1.5rem);
+  opacity: 0;
 }
 
 .mega-menu[open] .mega-menu__content {
