@@ -32,7 +32,6 @@
   left: auto;
   right: auto;
   list-style: none;
-  gap: 1.5rem;
 }
 
 .mega-menu[open] .mega-menu__content {
