@@ -3623,6 +3623,12 @@ details-disclosure > details {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .mega-menu__link {
+    color: #9f2b41 !important;
+  }
+}
+
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);
