@@ -60,7 +60,6 @@
   
   display: flex; /* Change from grid to flex */
   flex-direction: row; /* Ensure items are aligned horizontally */
-  flex-wrap: wrap; /* Allow wrapping if necessary */
 }
 
 .mega-menu__link--level-2 {
