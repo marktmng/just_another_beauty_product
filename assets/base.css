@@ -3089,6 +3089,7 @@ details-disclosure > details {
 @supports not (inset: 10px) {
   .grid {
     margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
+    color: #9f2b41;
   }
 
   .grid__item {
