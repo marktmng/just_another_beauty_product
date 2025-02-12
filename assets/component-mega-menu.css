@@ -44,8 +44,6 @@
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust width */
   gap: 1.5rem; /* Space between items */
   list-style: none;
-  color: #9f2b41;
-  text-decoration: none;
 }
 
 .mega-menu__link {
@@ -54,7 +52,7 @@
   flex-wrap: wrap; /* Allow wrapping if necessary */
   gap: 1.5rem; /* Adjust spacing between items */
   color: #9f2b41;
-  /* list-style: none; */
+  text-decoration: none;
 }
 
 .mega-menu__link--level-2 {
