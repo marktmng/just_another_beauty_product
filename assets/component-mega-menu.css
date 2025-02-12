@@ -38,9 +38,9 @@
 
 .mega-menu__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust width */
-  
-  list-style: none;
+  grid-template-columns: repeat(4, 1fr); /* Fixed number of columns */
+  gap: 1.5rem; /* Ensure consistent spacing */
+  padding: 0 2rem; /* Add breathing room on sides */
 }
 
 .mega-menu__link {
