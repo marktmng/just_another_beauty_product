@@ -41,7 +41,7 @@
 .mega-menu__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust width */
-  gap: 20px; /* Space between items */
+  
   list-style: none;
 }
 
@@ -55,6 +55,7 @@
   padding-top: 0.6rem;
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
+  gap: 20px; /* Space between items */
   /* word-wrap: break-word; */
 }
 
