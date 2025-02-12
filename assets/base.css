@@ -2871,6 +2871,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu {
   transition: opacity var(--duration-default) ease, transform var(--duration-default) ease;
+  color: #9f2b41;
 }
 
 .global-settings-popup,
