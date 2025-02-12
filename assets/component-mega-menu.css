@@ -49,7 +49,6 @@
 .mega-menu__link {
 /* color: rgba(var(--color-foreground), 0.75); */
   /* color: rgb(0, 0, 0, 0.75); /* black */
-  display: block;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
   padding-bottom: 0.6rem;
   padding-top: 0.6rem;
@@ -59,7 +58,7 @@
 
 
   
-  display: block; /* Change from grid to flex */
+  display: flex; /* Change from grid to flex */
   flex-direction: row; /* Ensure items are aligned horizontally */
   flex-wrap: wrap; /* Allow wrapping if necessary */
 }
