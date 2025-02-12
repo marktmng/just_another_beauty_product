@@ -3030,6 +3030,7 @@ details-disclosure > details {
     border-left: none;
     border-right: none;
     border-radius: 0;
+    color: #9f2b41;
   }
   .content-container--full-width-mobile:after {
     display: none;
