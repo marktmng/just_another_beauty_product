@@ -64,7 +64,7 @@
   justify-content: left;
   flex-wrap: wrap;
   column-gap: 0;
-  width: auto
+  width: auto;
 }
 
 .header--top-center .mega-menu__list > li {
