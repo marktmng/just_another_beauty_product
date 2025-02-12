@@ -2941,6 +2941,7 @@ details-disclosure > details {
 .overflow-hidden-tablet,
 .overflow-hidden-desktop {
   overflow: hidden;
+  /* color: #9f2b41; */
 }
 
 @media screen and (min-width: 750px) {
