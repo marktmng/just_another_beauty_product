@@ -45,6 +45,7 @@
   gap: 1.5rem; /* Space between items */
   list-style: none;
   color: #9f2b41;
+  text-decoration: none;
 }
 
 .mega-menu__link {
