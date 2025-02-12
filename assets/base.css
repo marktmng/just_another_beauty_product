@@ -2946,14 +2946,12 @@ details-disclosure > details {
 @media screen and (min-width: 750px) {
   .overflow-hidden-mobile {
     overflow: auto;
-    color: #9f2b41;
   }
 }
 
 @media screen and (min-width: 990px) {
   .overflow-hidden-tablet {
     overflow: auto;
-    color: #9f2b41;
   }
 }
 
@@ -3032,7 +3030,6 @@ details-disclosure > details {
     border-left: none;
     border-right: none;
     border-radius: 0;
-    color: #9f2b41;
   }
   .content-container--full-width-mobile:after {
     display: none;
