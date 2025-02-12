@@ -42,7 +42,7 @@
 .mega-menu__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust width */
-  gap: 2.5rem; /* Space between items */
+  gap: 5.5rem; /* Space between items */
   list-style: none;
 }
 
