@@ -52,6 +52,9 @@
   flex-wrap: wrap; /* Allow wrapping if necessary */
   gap: 2.5rem; /* Adjust spacing between items */
   color: #9f2b41;
+  line-height: calc(1 + 0.3 / var(--font-body-scale));
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
   text-decoration: none;
 }
 
