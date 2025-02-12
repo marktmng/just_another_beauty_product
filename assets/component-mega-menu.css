@@ -29,8 +29,8 @@
   width: fit-content; /* Make it only as wide as the menu items */
   min-width: 200px; /* Adjust this if needed */
   max-width: 80%;
-  left: auto;
-  right: auto;
+  /* left: auto;
+  right: auto; */
 }
 
 .mega-menu[open] .mega-menu__content {
