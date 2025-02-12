@@ -3622,12 +3622,7 @@ details-disclosure > details {
 .progress-bar .progress-bar-value {
   display: block;
 }
-
-@media (max-width: 768px) {
-  .mega-menu__link {
-    color: #9f2b41 !important;
-  }
-}
+ */
 
 @keyframes indeterminateAnimation {
   0% {
