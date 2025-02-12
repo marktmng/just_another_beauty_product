@@ -2978,7 +2978,7 @@ details-disclosure > details {
 
 @media screen and (forced-colors: active) {
   .icon {
-    color: CanvasText;
+    /* color: CanvasText; */
     fill: CanvasText !important;
   }
 
