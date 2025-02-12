@@ -47,7 +47,7 @@
 }
 
 .mega-menu__link {
-  display: flex; /* Change from grid to flex */
+  display: block; /* Change from grid to flex */
   flex-direction: row; /* Ensure items are aligned horizontally */
   flex-wrap: wrap; /* Allow wrapping if necessary */
   gap: 2.5rem; /* Adjust spacing between items */
