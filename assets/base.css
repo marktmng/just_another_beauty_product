@@ -2953,6 +2953,7 @@ details-disclosure > details {
 @media screen and (min-width: 990px) {
   .overflow-hidden-tablet {
     overflow: auto;
+    color: #9f2b41;
   }
 }
 
