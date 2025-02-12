@@ -39,7 +39,7 @@
 }
 
 .mega-menu__list {
-  display: block;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust width */
   gap: 10px; /* Space between items */
   list-style: none;
@@ -49,7 +49,7 @@
 /* color: rgba(var(--color-foreground), 0.75); */
   /* color: rgb(0, 0, 0, 0.75); /* black */
   color: #9f2b41;
-  display: block;
+  display: grid;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
   padding-bottom: 0.6rem;
   padding-top: 0.6rem;
