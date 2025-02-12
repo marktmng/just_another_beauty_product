@@ -26,9 +26,10 @@
 }
 
 .js .mega-menu__content {
-  opacity: 0;
-  transform: translateY(-1.5rem);
-  width: fit-content;
+  width: fit-content; /* Make it only as wide as the menu items */
+  min-width: 200px; /* Adjust this if needed */
+  left: auto;
+  right: auto;
 }
 
 .mega-menu[open] .mega-menu__content {
